@@ -9,6 +9,13 @@
         </a>
     </div>
 
+    <!-- Botón para regresar al Dashboard -->
+    <div class="mb-4">
+        <a href="{{ route('dashboard') }}" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Volver al Dashboard
+        </a>
+    </div>
+
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
@@ -52,3 +59,4 @@
     </div>
 </div>
 @endsection
+

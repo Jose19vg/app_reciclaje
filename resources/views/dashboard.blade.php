@@ -33,13 +33,13 @@ body {
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">
+                        <a class="nav-link text-white" href="http://127.0.0.1:8000/rewards">
                             🏆 Premios
                         </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('community-posts.index') }}">
-                        ♻️ Comunidad
+                        <a class="nav-link text-white" href="{{ route('community-posts.index') }}">
+                            ♻️ Comunidad
                         </a>
                     </li>
                     <li class="nav-item">
@@ -70,7 +70,11 @@ body {
                 <div class="col-md-6 mb-4">
                     <div class="card shadow-lg rounded-3 border-0">
                         <div class="card-body">
-                            <h5 class="text-success">🌱 Progreso de Reciclaje</h5>
+                            <h5 class="text-success">
+                                <a href="http://127.0.0.1:8000/recycling-materials" class="text-success text-decoration-none">
+                                    🌱 Progreso de Reciclaje
+                                </a>
+                            </h5>
                             <p>Aquí podrás ver tu progreso y estadísticas detalladas.</p>
                         </div>
                     </div>
@@ -79,7 +83,11 @@ body {
                 <div class="col-md-6 mb-4">
                     <div class="card shadow-lg rounded-3 border-0">
                         <div class="card-body">
-                            <h5 class="text-success">🏅 Premios Disponibles</h5>
+                            <h5 class="text-success">
+                                <a href="http://127.0.0.1:8000/rewards" class="text-success text-decoration-none">
+                                    🏅 Premios Disponibles
+                                </a>
+                            </h5>
                             <p>Canjea tus puntos por increíbles premios.</p>
                         </div>
                     </div>

@@ -31,13 +31,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
-                        <!-- Agregar el enlace de Premios -->
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="{{ route('rewards.index') }}">
-                                <i class="bi bi-gift"></i> Premios
-                            </a>
-                        </li>
-
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -89,3 +82,4 @@
 
 </body>
 </html>
+
